@@ -3,6 +3,7 @@ import os
 import pickle
 from zipfile import ZipFile
 import pandas as pd
+import numpy as np
 from sklearn.kernel_ridge import KernelRidge
 from sklearn.linear_model import BayesianRidge, LinearRegression
 from sklearn.svm import SVR
